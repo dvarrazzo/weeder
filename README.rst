@@ -26,6 +26,10 @@ Our glorious help
 
 Running ``weeder -h`` you might be told::
 
+    usage: weeder [-h] [-p AGE:DIST [AGE:DIST ...]] [-f REGEX] [-r YYYY-MM-DD]
+                  [--print-keepers | --print-goners] [-q | -v]
+                  [FILE [FILE ...]]
+
     positional arguments:
       FILE                  the files to weed
 

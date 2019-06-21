@@ -31,4 +31,6 @@ setup(
         'Bug Reports': 'https://github.com/GambitResearch/weeder/issues',
         'Source': 'https://github.com/GambitResearch/weeder/',
     },
+    setup_requires=["pytest-runner"],
+    tests_require=["pytest"],
 )

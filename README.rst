@@ -50,3 +50,11 @@ Running ``weeder -h`` you might be told::
       -v, --verbose         talk more
 
 but who knows, really.
+
+
+Running tests
+-------------
+
+You can run::
+
+    python3 setup.py test
